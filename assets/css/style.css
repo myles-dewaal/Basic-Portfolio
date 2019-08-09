@@ -31,14 +31,15 @@ time, mark, audio, video {
 */
 
 .logo {
-  border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
   font-weight: 200;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 44px 0 22px 0;
+  padding: 22px 80px 66px 80px;
   text-transform: capitalize;
+  color: rgb(252, 253, 253);
+  background:teal
 }
 .primary-nav {
     float: right;
@@ -46,8 +47,23 @@ time, mark, audio, video {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
+ 
 }
+.primary-nav ul {
+    list-style: none;
+    display: block;
 
+    
+}
+.primary-nav li {
+    display: inline;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white
+}
+ul li a {
+    text-decoration: none;
+}
 /*
   ===============================
   About
@@ -55,15 +71,40 @@ time, mark, audio, video {
 */
 
 .about {
-  color: #fff;
-  line-height: 44px;
+    float: right;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: .5px;
+}
+h2 {
+  font-size: 60px;
+  color: teal;
+  background: white;
+  text-align: left;
   padding: 22px 80px 66px 80px;
-  text-align: center;
 }
-.h2 {
-  font-size: 48px;
+p {
+    color: rgb(142, 143, 145);
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+    text-align: left;
 }
-.p {
-  font-size: 20px;
-  font-weight: 100;
+
+
+
+/*=============================
+Contact
+===============================
+*/
+
+.contact {
+    text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding: 22px 80px 66px 80px;
+
 }
+
+
