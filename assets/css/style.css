@@ -26,6 +26,16 @@ time, mark, audio, video {
 
 /*
   =================================
+  Body
+  =================================
+*/
+
+body {
+    background-image: url("../images/scribble_light.png")
+}
+
+/*
+  =================================
   Primary header
   =================================
 */
@@ -36,7 +46,8 @@ time, mark, audio, video {
   font-weight: 200;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 22px 80px 66px 80px;
+  margin: 0% 0% 0% 17%;
+  padding: 22px 60px;
   text-transform: capitalize;
   color: rgb(252, 253, 253);
   background:teal
@@ -45,6 +56,7 @@ time, mark, audio, video {
     float: right;
   font-size: 14px;
   font-weight: 400;
+  margin: 3% 8% 0% 0%;
   letter-spacing: .5px;
   text-transform: uppercase;
  
@@ -59,10 +71,11 @@ time, mark, audio, video {
     display: inline;
     margin-right: 5px;
     text-decoration: none;
-    color: white
 }
 ul li a {
     text-decoration: none;
+    color: blue;
+}
 }
 /*
   ===============================
@@ -71,15 +84,17 @@ ul li a {
 */
 
 .about {
-    float: right;
     font-size: 14px;
     font-weight: 200;
     letter-spacing: .5px;
+    background: white;
+    margin: auto;
+    max-width: 500px;
+    clear: both;
 }
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   color: teal;
-  background: white;
   text-align: left;
   padding: 22px 80px 66px 80px;
 }
@@ -90,9 +105,8 @@ p {
     text-align: left;
 }
 
-
-
-/*=============================
+/*
+=============================
 Contact
 ===============================
 */
@@ -104,7 +118,6 @@ Contact
   letter-spacing: .5px;
   text-transform: uppercase;
   padding: 22px 80px 66px 80px;
-
 }
 
 
