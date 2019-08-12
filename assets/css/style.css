@@ -93,8 +93,10 @@ ul li a {
     max-width: 500px;
 }
 .profile {
+  float: left;
   height: 200px;
-  width: 200px:
+  width: 150px;
+  margin: 0% 0% 0% 10%;
 }
 h2 {
   font-size: 50px;
