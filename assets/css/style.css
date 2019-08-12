@@ -84,13 +84,17 @@ ul li a {
 */
 
 .about {
+  clear: both;
     font-size: 14px;
     font-weight: 200;
     letter-spacing: .5px;
     background: white;
     margin: auto;
     max-width: 500px;
-    clear: both;
+}
+.profile {
+  height: 200px;
+  width: 200px:
 }
 h2 {
   font-size: 50px;
@@ -108,7 +112,7 @@ p {
 /*
 =============================
 Contact
-===============================
+=============================
 */
 
 .contact {
@@ -120,4 +124,12 @@ Contact
   padding: 22px 80px 66px 80px;
 }
 
+/*
+============================
+Footer
+============================
+*/
 
+.primary-footer {
+  text-align: center;
+}
