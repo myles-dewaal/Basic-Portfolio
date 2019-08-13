@@ -124,7 +124,7 @@ h2 {
   font-size: 50px;
   color: teal;
   text-align: left;
-  padding: 22px 80px 66px 80px;
+  padding: 22px 80px 22px 80px;
 }
 p {
     color: rgb(142, 143, 145);
@@ -154,13 +154,21 @@ Footer
 ============================
 */
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
 .content {
-  flex: 1 0 auto;
-
+  min-height: 100%;
+  margin-bottom: -50px;
 }
 
 .primary-footer {
   height: 50px;
-  flex-shrink: 0;
   text-align: center;
+  background-color: teal;
+}
+
+h4 {
+  padding-top: 16px;
 }
