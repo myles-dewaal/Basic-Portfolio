@@ -76,7 +76,7 @@ ul li a {
     text-decoration: none;
     color: blue;
 }
-}
+
 /*
   ===============================
   About
@@ -90,7 +90,6 @@ ul li a {
     letter-spacing: .5px;
     background: white;
     margin: auto;
-    max-width: 500px;
 }
 .profile {
   float: left;
