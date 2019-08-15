@@ -112,7 +112,7 @@ ul li a {
     font-weight: 200;
     letter-spacing: .5px;
     background: white;
-    margin: auto;
+    margin: 10px 150px;
 }
 .profile {
   float: left;
@@ -121,6 +121,7 @@ ul li a {
   margin: 0% 2% 0% 10%;
 }
 h2 {
+  clear: both;
   font-size: 50px;
   color: teal;
   text-align: left;
@@ -140,6 +141,7 @@ Contact
 */
 
 .contact {
+  clear: both;
     text-align: left;
   font-size: 14px;
   font-weight: 400;
@@ -147,7 +149,11 @@ Contact
   text-transform: uppercase;
   padding: 22px 80px 66px 80px;
 }
-
+.form {
+  clear: both;
+ margin: 150px 150px;
+ background-color: white;
+}
 /*
 ============================
 Footer
