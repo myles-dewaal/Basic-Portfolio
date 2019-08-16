@@ -195,16 +195,22 @@ Portfolio
 .example1 {
   margin: 5px 100px 5px 5px;
   float: left;
+  position: relative;
 }
 .example2 {
-  margin: 20px;
+  margin: 5px;
+  position: relative;
+  float: left;
 }
 .example3 {
-  clear: both;
+  margin: 5px 150px 5px 5px
+  position: relative;
   float: left;
 }
 .example4 {
+  position: relative:
   margin: 5px;
+  float: left;
 }
 .example4 {
   margin: 5px 175px;
