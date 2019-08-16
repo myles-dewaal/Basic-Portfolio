@@ -150,11 +150,13 @@ Contact
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
+  margin: 15px 75px 150px 75px;
   padding: 22px 80px 66px 80px;
+  background-color: white;
 }
 .form {
   clear: both;
- margin: 150px 150px;
+ margin: 50pxpx 150px;
  background-color: white;
 }
 /*
@@ -203,7 +205,6 @@ Portfolio
   float: left;
 }
 .example3 {
-  margin: 5px 150px 5px 5px
   position: relative;
   float: left;
 }
