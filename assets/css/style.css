@@ -97,7 +97,7 @@ body {
 }
 ul li a:hover {
   background-color: gray;
-  transition: 2s;
+  transition: 1.5s;
 }
 ul li a {
     text-decoration: none;
@@ -180,4 +180,32 @@ html, body {
 
 h4 {
   padding-top: 16px;
+}
+
+/*
+========================
+Portfolio
+========================
+*/
+
+.examples {
+  background-color: white;
+  margin: 20px 175px 100px 175px;
+}
+.example1 {
+  margin: 5px 100px 5px 5px;
+  float: left;
+}
+.example2 {
+  margin: 20px;
+}
+.example3 {
+  clear: both;
+  float: left;
+}
+.example4 {
+  margin: 5px;
+}
+.example4 {
+  margin: 5px 175px;
 }
