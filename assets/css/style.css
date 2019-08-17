@@ -209,10 +209,16 @@ Portfolio
   float: left;
 }
 .example4 {
-  position: relative:
+  position: relative;
   margin: 5px;
   float: left;
 }
-.example4 {
+.example5 {
   margin: 5px 175px;
+  float: left;
+}
+.e1 {
+  position: absolute;
+  right: 0px;
+  bottom: -5px;
 }
