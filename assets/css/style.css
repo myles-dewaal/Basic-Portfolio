@@ -82,7 +82,6 @@ body {
   margin: 3% 8% 0% 0%;
   letter-spacing: .5px;
   text-transform: uppercase;
- 
 }
 .primary-nav ul {
     list-style: none;
@@ -222,4 +221,31 @@ Portfolio
   right: 0px;
   bottom: -75px;
   color: black;
+}
+@media screen and (max-width: 960px) {
+  .about {
+    margin: auto;
+  }
+
+.projects {
+  margin: auto;
+  float: none;
+}
+
+.example1 {
+float: none;
+}
+.example2 {
+  float: none;
+}
+.example3 {
+  float: none;
+}
+.example4 {
+  float: none;
+}
+.example5 {
+  float: none;
+}
+  
 }
